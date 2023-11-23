@@ -25,7 +25,7 @@ const Hireme = () => {
         <img
           src={hireMe}
           alt=""
-          className="lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
+          className="lg:h-[32em] h-80 lg:absolute bottom-0 -right-2 object-cover"
         />
       </div>
     </section>

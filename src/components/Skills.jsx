@@ -4,24 +4,41 @@ const Skills = () => {
   const skills = [
     {
       logo: "logo-html5",
-      level: "Advance",
+      level: "HTML",
       count: 86,
     },
     {
       logo: "logo-css3",
-      level: "Expect",
+      level: "CSS",
       count: 90,
     },
     {
       logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
+      level: "NODE JS",
+      count: 80,
     },
     {
       logo: "logo-react",
-      level: "Intermediate",
+      level: "REACT",
       count: 80,
     },
+    {
+      logo: "logo-javascript",
+      level: "JAVASCRIPT",
+      count: 85,
+    },
+
+    {
+      logo: "logo-tailwind",
+      level:"TAILWIND",
+      count: 80,
+    },
+    {
+      logo:"logo-express",
+      level:"EXPRESS",
+      count:90
+    }
+    
   ];
   return (
     <section id="skills" className="py-10 bg-gray-800 relative">

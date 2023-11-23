@@ -17,12 +17,18 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+                <span className="text-cyan-600 uppercase text-2xl">I'm</span> a full-stack web developer proficient in HTML, CSS, and Tailwind
+                CSS for crafting responsive and visually appealing user
+                interfaces. Skilled in JavaScript, React, and Node.js to create
+                dynamic and interactive front-end experiences. Possesses
+                expertise in Express and Mongoose for building robust back-end
+                systems, ensuring seamless communication between the server and
+                database. Capable of designing and implementing end-to-end web
+                solutions, combining a strong foundation in both front-end and
+                back-end technologies to deliver efficient and engaging web
+                applications.
               </p>
-              <div className="flex mt-10 items-center gap-7">
+              {/* <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-white">
@@ -32,7 +38,7 @@ const About = () => {
                     <span className="md:text-base text-xs">{content.text}</span>
                   </div>
                 ))}
-              </div>
+              </div> */}
               <br />
               <br />
               <a href="./src/assets/Code_a_program.pdf" download>
