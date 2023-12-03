@@ -30,12 +30,12 @@ const Skills = () => {
 
     {
       logo: "logo-tailwind",
-      level:"TAILWIND",
+      level:"TAILWIND CSS",
       count: 80,
     },
     {
       logo:"logo-express",
-      level:"EXPRESS",
+      level:"EXPRESS JS",
       count:90
     }
     

@@ -3,10 +3,28 @@ import hero from "../assets/images/hero.png";
 import Typewriter from "./typewriter";
 const Hero = () => {
   const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
+    {
+      logo:"logo-github",
+      link:"https://github.com/Kezmandre"
+    },
+    {
+      logo:"logo-facebook",
+      link : ""
+    },
+
+    {
+      logo:"logo-linkedin",
+      link: ""
+    },
+
+    {
+      logo:"logo-twitter",
+      link:""
+    },
+
+    
+    
+    
   ];
   return (
     <section
@@ -35,7 +53,7 @@ const Hero = () => {
                 key={icon}
                 className="text-gray-600 hover:text-white cursor-pointer "
               >
-                <ion-icon name={icon}></ion-icon>
+               <a href={icon.link} target="_blank"><ion-icon name={icon.logo}></ion-icon></a> 
               </div>
             ))}
           </div>

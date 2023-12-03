@@ -20,7 +20,9 @@ const Hireme = () => {
             sapiente obcaecati odio deleniti architecto corporis ratione.
             Consequatur a quidem maiores!
           </p>
-          <button className="btn-primary mt-10">Say Hello</button>
+          <a href="#contact">
+            <button className="btn-primary mt-10">Say Hello</button>
+          </a>
         </div>
         <img
           src={hireMe}
